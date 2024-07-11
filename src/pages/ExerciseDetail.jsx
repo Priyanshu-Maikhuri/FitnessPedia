@@ -3,7 +3,6 @@ import { Box } from '@mui/material'
 import { Detail, ExerciseVideos, SimilarExercises } from '../components'
 import { useParams } from 'react-router-dom'
 import { fetchData, exercisesOptions, youtubeOptions } from "../utils/fetchData";
-import { useGymContext } from '../utils/Context';
 
 const ExerciseDetail = () => {
   const { id } = useParams()

@@ -1,7 +1,5 @@
 import { Box } from '@mui/material'
-import { HeroBanner, SearchExercises, Exercises } from '../components'
-import { useGymContext } from '../utils/Context'
-import { useEffect } from 'react'
+import { HeroBanner, SearchExercises, Exercises, Join } from '../components'
 
 const Home = () => {
   return (
@@ -9,6 +7,7 @@ const Home = () => {
       <HeroBanner />
       <SearchExercises />
       <Exercises />
+      <Join />
     </Box>
   )
 }

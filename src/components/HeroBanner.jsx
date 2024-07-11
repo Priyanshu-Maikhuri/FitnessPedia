@@ -37,7 +37,7 @@ const HeroBanner = () => {
                     }}>
                     Exercises
                </Typography>
-               <img src={HeroBannerImage} alt="Banner Image" className='hero-banner-img' />
+               <img src={HeroBannerImage} alt="" className='hero-banner-img' />
           </Box>
      )
 }
